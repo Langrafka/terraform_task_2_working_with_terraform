@@ -1,0 +1,15 @@
+# .gitignore
+
+# Default ignored files (Залишаємо існуючі)
+/shelf/
+/workspace.xml
+
+# Terraform ignored files (НОВІ РЯДКИ)
+# Папка, де зберігаються бінарні файли провайдерів (найбільші файли!)
+.terraform/
+
+# Файли стану та логи, які не потрібно зберігати в Git
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
