@@ -16,6 +16,6 @@ terraform {
 
 provider "azurerm" {
   features {}
-  # Явно вказаний ID підписки для автентифікації
-  subscription_id = "aa380376-24bc-45a7-88fb-1b3fb402ee39"
+  # ВИПРАВЛЕННЯ: Рядок subscription_id видалено.
+  # Terraform тепер автоматично використає ID підписки з Azure CLI.
 }
